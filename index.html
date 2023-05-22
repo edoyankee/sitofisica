@@ -1,0 +1,230 @@
+<html>
+<head>
+    <style type="text/css">
+        
+        body{padding:0px; margin: 0px; overflow:hidden;}
+        #menu {width: 100%; height: 50px; background-color:#99FFFF; position: fixed; padding-top: 10px;}
+            #menu ul{margin:0px;}
+            #menu li{display: inline; font-family: 'Times New Roman'; font-size: 25px }
+        #menu li:hover {cursor: pointer; }
+        li.motoreelettrico{ margin-right: 10px;
+        margin-left: 50px; margin-right: 10px; padding-right: 0px; border-right: 0px;}
+        #motoreelettrico{background-color:#00FFFF; cursor: pointer;
+            
+        }
+        li.alternatore{margin-right: 10px;
+            margin-left: 50px;  margin-right: 10px; padding-right: 0px; border-right: 0px;}
+        #alternatore{background-color: #00FFFF; cursor: pointer;
+        }
+        
+        h1, h2{font-family: 'Times New Romans';
+            font-size: 30px;
+                margin: 0px;
+            text-align: center;
+            padding-top: 60px;
+            }    
+        
+        p{ padding-left: 20px; text-align: left; font-size: 30px;
+            
+        }
+        
+        video{ margin: 0px; border: 0px; height: 300px; width: 800px;
+            
+        }
+        
+        #titolohome{ padding-top: 60px;}
+        #fotomotoreelettrico{padding-left: 160px; padding-top: 50px;}
+        #fotoalternatore{padding-left: 315px; padding-top: 50px;}
+            #Home{ background-color: #CCFFFF; height: 819px; width: 100%;}
+            #storiamotore{ background-color: #CCFFFF; height: 819px; width: 100%;}
+        #talete{width: 120px; height: 120px; padding-left: 340px;padding-bottom: 15px;}
+        #volta{width: 120px; height: 120px; padding-left: 30px; padding-bottom: 15px;}
+        #pacinotti{width: 120px; height: 120px; padding-left: 30px; padding-bottom: 15px;}
+        #sturgeon{width: 120px; height: 120px; padding-left: 30px; padding-bottom: 15px;}
+        #davenport{width: 120px; height: 120px; padding-left: 30px; padding-bottom: 15px;}
+            #funzionamentomotore{ background-color: #CCFFFF; height: 819px; width: 100%;}
+            #fotomotore{ width: 500px; height: 300px;}
+            #approfondimentomotore{ background-color: #CCFFFF; height: 819px; width: 100%;}
+        #approfondimentomotoreP{font-size: 25px;}
+        #motoreelettricoA{width: 300px; height: 250px; padding-left: 390px}
+        #motorecombustioneA{width: 300px; height: 250px;padding-left: 60px}
+            #storiaalternatore{ background-color: #CCFFFF; height: 819px; width: 100%;}
+        #storiaalternatoreP{font-size: 25px;}
+            #funzionamentoalternatore{ background-color: #CCFFFF; height: 819px; height: 100%;}
+        #videoalternatore{padding-left: 323px}
+            #approfondimentoalternatore{background-color: #CCFFFF; height: 819px; height: 100%;}
+        #centrale{padding-left:50px;}
+        #trasporto{padding-left: 50px;}
+       
+    
+     </style>
+    </head>
+           
+    
+        <body>
+            <div id="menu" class="flex">
+              <div id="menu_indoor">
+                  <ul>
+                      <li onclick="document.getElementById('Home').scrollIntoView()" class="home">Home</li>
+                      <li onclick="document.getElementById('storiamotore').scrollIntoView()"class="motoreelettrico" id="motoreelettrico1"> Motore elettrico</li> <select onchange="location = this.value;" id="motoreelettrico">
+  <option value="">Scegli una opzione</option>
+  <option value="#storiamotore">Storia</option>
+  <option value="#funzionamentomotore">Funzionamento</option>
+  <option value="#approfondimentomotore">Approfondimento</option>
+</select>
+                    <li onclick="document.getElementById('storiaalternatore').scrollIntoView()"class="alternatore">Alternatore</li><select onchange="location = this.value;" id="alternatore">
+  <option value="">Scegli una opzione</option>
+  <option value="#storiaalternatore">Storia</option>
+  <option value="#funzionamentoalternatore">Funzionamento</option>
+  <option value="#approfondimentoalternatore">Approfondimento</option>
+</select>
+                  </ul>
+                </div>
+                </div>
+            
+            
+            <div id="Home" class="sections flex">
+                
+                <div class="sections_indoor"> 
+                
+                <div id="titolohome"; style="display: flex;">
+                <h2 style="width: 50%; font-size: 40px"> Motore elettrico </h2>
+                <h2 style="width: 50%; font-size: 40px"> Alternatore </h2>
+                    
+                </div>
+                   <div class="images">
+                    <img src="motoreelettrico.jpg" height="400px" width="400px" alt="motoreelettrico" id="fotomotoreelettrico">
+                    <img src="alternatore.jpg"  height="400px"  width="400px" alt="alternatore" id="fotoalternatore">
+                    </div>
+                    
+                    <div id="definizioni"; style="display: flex;">
+                <h2 style="width: 50%; font-size: 20px; padding-bottom: 10px; padding-left: 20px; ">"Un motore elettrico è una particolare macchina elettrica, di solito rotante, che trasforma l'energia elettrica in ingresso, applicata ai morsetti di alimentazione, in energia meccanica in uscita resa disponibile sull'asse del motore."</h2>
+                <h2 style="width: 50%; font-size: 20px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px">"L'alternatore è una macchina elettrica rotante basata sulla legge fisica dell'induzione elettromagnetica, che converte l'energia meccanica fornita dal motore primo in energia elettrica sotto forma di corrente alternata."</h2>
+                    
+                </div>
+
+                    
+                    
+                    
+                 
+                 </div>
+            </div>
+            
+            
+                        <div id="storiamotore" class="sections flex">
+                
+                <div class="sections_indoor"> 
+                    <h2>Storia del Motore Elettrico</h2>
+                    <p>La storia dei motori elettrici è lunga, Incomincia intorno al 600 a.C., quando il filosofo greco Talete si accorse che dei pezzetti di ambra, strofinati tra loro, acquisivano la proprietà di attrarre chicchi di grano.<br>
+                        <br>
+                        Alessandro Volta, nel 1800, inventò la pila, un apparecchio per produrre e immagazzinare corrente elettrica.<br>
+                        <br>
+                        Nel 1823 l’inglese William Sturgeon, avvolgendo un filo metallico intorno a un pezzo di ferro e facendovi scorrere corrente elettrica, scoprì che si otteneva una calamita artificiale, che però perdeva la sua forza di attrazione nel momento in cui la corrente veniva interrotta. Nacque così l'elettrocalamita.<br>
+                        <br>
+                        Nel 1858 la prima intuizione della spira, che diventerà la base per la realizzazione della dinamo, permise a Pacinotti di costruire il primo generatore dinamo-elettrico, considerato la prima macchina generatrice di elettricità.<br>
+                        <br>
+                        Successivamente al lavoro di Strugeon, l'americano Thomas Davenport, costruì un motore a corrente continua migliorato, con l'intenzione di usarlo per scopi pratici.</p>
+                
+                    <img id="talete" src="talete.jpeg">
+                    <img id="volta" src="volta.jpeg">
+                    <img id="pacinotti" src="pacinotti.jpeg">
+                    <img id="sturgeon" src="William_Sturgeon.jpeg">
+                    <img id="davenport" src="Thomas_Davenport.jpeg">
+                    
+                    
+                 
+                 </div>
+            </div>
+                         <div id="funzionamentomotore" class="sections flex">
+                
+                <div class="sections_indoor"> 
+                    <h2> Funzionamento del Motore Elettrico</h2>
+                    <p> Il funzionamento del motore elettrico si basa sull'interazione tra un campo magnetico rotante e un campo magnetico fisso. Il rotore, che è costituito da una serie di avvolgimenti di filo di rame, viene attratto dai campi magnetici dello statore, che a loro volta sono creati dai magneti permanenti o dai solenoidi. Fornendo corrente elettrica al motore, si genera un campo magnetico nell'avvolgimento del rotore. Questo campo magnetico interagisce con il campo magnetico prodotto dallo statore, facendo girare il rotore. Il movimento del rotore, a sua volta, fa girare l'albero motore e trasforma l'energia elettrica in energia meccanica. </p>
+  <div class="images">
+                    <video id="videomotore" src="motoreelettrico.ogv" preload="auto" loop autoplay muted>
+</video>
+                    <img id="fotomotore" src="fotomotore.png">-
+                    </div>                  
+
+                
+                                     
+                 </div>
+            </div>
+            
+                         <div id="approfondimentomotore" class="sections flex">
+                
+                <div class="sections_indoor"> 
+                    <h2>Le macchine elettriche</h2>
+                    <p id="approfondimentomotoreP">Nelle auto a combustione interna sono presenti motori composti da decine di elementi diversi, un aspetto che aumenta i costi di manutenzione e il rischio di guasti e rotture. In questi propulsori il carburante viene mischiato all’aria e incendiato con una scintilla, per azionare i pistoni e mettere in funzione generando una forza con cui muovere le ruote e spostare il veicolo. I motori elettrici sono formati da pochi componenti, con una struttura meno complessa in confronto a quelli di auto diesel o benzina. 
+Nelle vetture con il motore elettrico quando si spinge il pedale dell’acceleratore si invia il comando all’inverter, il quale in base all’impulso ricevuto regola di conseguenza la frequenza della corrente. Queste variazioni permettono di gestire il motore elettrico e la velocità, con una risposta immediata da parte del propulsore elettrico. Quando invece si frena o si decelera la corrente alternata prodotta dal motore non viene sprecata, ma è recuperata e trasformata in corrente continua, in questo modo aiuta a ricaricare la batteria e aumentare l’autonomia e l’efficienza. 
+La potenza inoltre è subito disponibile, senza la variazione graduale tipica delle macchine. <br> Oltre al motore elettrico un componente essenziale dei veicoli a zero emissioni sono le batterie , indispensabili per azionare il powertrain elettrico fornendo elettricità a corrente continua. La batteria dell’auto elettrica è un sistema di accumulo, infatti viene ricaricata con una fonte e successivamente cede energia al motore per azionarlo. 
+</p>
+                    <img id="motoreelettricoA" src="motoreelettricoA.jpeg">
+                    <img id="motorecombustioneA" src="motorecombustioneA.jpeg">
+                    
+                    
+                
+                    
+                 
+                 </div>
+            </div>
+            
+                         <div id="storiaalternatore" class="sections flex">
+                
+                <div class="sections_indoor"> 
+                    <h2>Storia dell'Alternatore</h2>
+                    <p id="storiaalternatoreP">Volta intuì l’esistenza di un preciso rapporto tra la velocità con la quale gli elettroni si muovono e il potenziale di due capi conduttori, e chiamò per primo questo valore “tensione elettrica”.<br>
+                    <br>
+                    Lavorando per l’azienda di Thomas Alva Edison, Tesla si accorse che gli alternatori dell’epoca, ossia i generatori che ruotano producendo energia elettrica, al contrario della dinamo, emettevano spontaneamente un flusso elettrico che cambiava più volte di polarità in un certo intervallo di tempo. Il problema principale dell’epoca, su cui le maggiori aziende elettriche stavano intensamente lavorando, era quello di riuscire a trovare un modo efficiente e conveniente per portare il flusso elettronico dalle centrali elettriche sino alle industrie e alle utenze domestiche.<br>
+                        <br>
+All’epoca, la corrente elettrica era distribuita così come usciva dalle dinamo e dalle batterie, cioè in modalità continua: il flusso elettronico non cambiava mai di direzione, e i poli positivi e negativi rimanevano invariati nel tempo.<br>
+                        <br>
+Tesla propose al suo capo Edison, fondatore della General Electric, di adottare il sistema di distribuzione alternata per risolvere il problema della trasmissione sulla lunga distanza e la dispersione di energia, il quale però rifiutò la proposta di Tesla per motivi economici.
+Messo alla porta da Edison, Tesla trovò un finanziatore nella figura di George Westinghouse, un imprenditore.<br>
+                        <br>
+Nel 1889, Westinghouse fece costruire in Oregon il primo impianto idroelettrico a corrente alternata al mondo, installando un elettrodotto lungo ben 20 km, con una tensione di distribuzione di 400 volt, ridotti poi per l’uso commerciale a 100 volt.<br>
+                        <br>
+                        L’odierna distribuzione della corrente elettrica distribuzione sul modello ideato dalla Westinghouse Electric è, con poche modifiche, ancora quella attuata in tutto il mondo.</p>
+                    
+
+                 </div>
+            </div>
+            
+                         <div id="funzionamentoalternatore" class="sections flex">
+                
+                <div class="sections_indoor">
+                    <h2>Funzionamento dell'Alternatore</h2>
+                    <p>La macchina è costituita da una parte cava fissa, chiamata statore, al cui interno ruota una parte cilindrica calettata sull'albero di rotazione, detta rotore.<br>
+                    <br>
+                    La corrente  elettrica che utilizziamo nelle nostre case è il risultato di un campo elettromotore di verso variabile alternativamente per questa viene chiamata corrente alternata. Una spira quadrata immersa in un campo magnetico uniforme prodotto dal magnete permanente è messa rotazione in senso antiorario da un'opportuna fonte di energia meccanica; la rotazione della spira fa variare il flusso del campo magnetico a essa concatenato. C'è quindi una continua variazione del tempo del flusso di B concatenato alla spira e, per la legge di Faraday-Lenz, si genera un campo elettromotore indotto che fa circolare corrente elettrica nella spira in rotazione.</p>
+                    <video id="videoalternatore" src="Alternatore.ogv" preload="auto" loop autoplay muted></video>
+                    
+                    
+                    
+                 
+                 </div>
+            </div>
+            
+                         <div id="approfondimentoalternatore" class="sections flex">
+                
+                <div class="sections_indoor">
+                    <h2>L'energia che noi tutti utilizziamo e i trasformatori</h2>
+                    <p>I luoghi di utilizzo della corrente elettrica non coincidono con quelli dove è più adatto generarla; si pone, quindi, il problema del trasporto dell’energia elettrica dai punti di produzione a quelli di consumo.<br>Una corrente di intensità I che fluisce in un conduttore di resistenza R dissipa sotto forma di energia termica la potenza: P=RI^2<br>L’obiettivo di riduzione delle perdite viene raggiunto modificando la tensione di trasporto della corrente.<br>I trasformatori sono formati da due bobine, avvolte attorno a una struttura costituita da materiale magnetizzatile con permeabilità magnetica elevata. Il numero di spire della prima bobina è inferiore a quello della seconda. Nella prima bobina scorre la corrente alternata prodotta dall’alternatore della centrale, al suo interno si crea un campo magnetico B che magnetizza il materiale di cui è costituita la struttura. Il campo magnetico generato si concatena alla bobina s e induce in essa una forza elettromotrice, anch’essa alternata.</p>
+                    
+                    <iframe id="intereattivo" src="https://www.vascak.cz/data/android/physicsatschool/template.php?s=ac_transformator&l=it" style="height: 300px; width: 450px;"></iframe>
+                    <img id="centrale" src="centrale.jpeg" width=400px; height=300px;>
+                    <img id="trasporto" src="trasporto.jpeg" width=400px; height=300px>
+                    
+                    
+                    
+                    
+                 
+                 </div>
+            </div>
+        
+        
+        
+        
+        
+        </body>
+</html>
